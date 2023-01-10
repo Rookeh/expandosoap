@@ -48,13 +48,14 @@ namespace ExpandoSoap.Tests
             // Act
             var functions = _factory.GetFunctionsForDefinitions(definitions);
 
-            // Assert
+            // Assert            
             Assert.NotEmpty(functions);
             Assert.Single(functions);
             var addMovie = functions.Single(f => f.Name == "AddMovie").Function;
             var Movie = new Movie { Director = "Me", Id = 1234, Title = "Test" };
             ExpandoObject response = await addMovie(Movie);
             Assert.NotNull(response);
+            _mockHttpClient.Verify();
         }
     }
 }
