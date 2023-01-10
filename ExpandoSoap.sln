@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpandoSoap", "ExpandoSoap\ExpandoSoap.csproj", "{A0F3405E-4952-4425-A597-9F467DA86C77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpandoSoap.Tests", "ExpandoSoap.Tests\ExpandoSoap.Tests.csproj", "{72FDB5F5-1A4C-40BA-B60A-606A6C8C2B51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{9251D005-E57E-48DA-AB8E-4E182D01120D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0F3405E-4952-4425-A597-9F467DA86C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F3405E-4952-4425-A597-9F467DA86C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F3405E-4952-4425-A597-9F467DA86C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F3405E-4952-4425-A597-9F467DA86C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FDB5F5-1A4C-40BA-B60A-606A6C8C2B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FDB5F5-1A4C-40BA-B60A-606A6C8C2B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FDB5F5-1A4C-40BA-B60A-606A6C8C2B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FDB5F5-1A4C-40BA-B60A-606A6C8C2B51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB43B3DF-F942-4FF2-AC2C-CB37F12638BD}
+	EndGlobalSection
+EndGlobal

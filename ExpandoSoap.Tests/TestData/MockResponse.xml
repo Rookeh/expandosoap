@@ -1,0 +1,12 @@
+﻿<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:Movie="http://example.org/MovieService/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <Movie:AddMovieResponse>
+      <Movie:Movie>
+        <ID>1234</ID>
+        <Title>Test</Title>
+        <Director>Me</Director>
+      </Movie:Movie>
+    </Movie:AddMovieResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
